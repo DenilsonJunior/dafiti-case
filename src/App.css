@@ -1,0 +1,24 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#root {
+    
+}
+
+.min-conteudo {
+    width: 60%;
+    margin: 0 auto;
+    @media (max-width: 786px) {
+        width: 90%;
+    }
+}
+
+.max-conteudo {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+}
