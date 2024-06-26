@@ -33,8 +33,8 @@ export const SecGuide = styled.section`
         }
         .boxText {
             backdrop-filter: blur(2px);
-            transform: translateY(5rem);
-            background-color: #0009;
+            transform: translateY(10rem);
+            background-color: rgba(0,0,0,.8);
             position: absolute;
             bottom: 0;
             padding: .5rem;

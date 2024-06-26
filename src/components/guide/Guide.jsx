@@ -45,22 +45,22 @@ function Guide() {
                 <div className='card card1'>
                     <img className='img' src="./assets/img/img1.jpg" alt="" />
                     <div className='boxText'>
-                        <p className='tl'>Where does it come from</p>
-                        <p className='tm'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
+                        <p className='tl'>Fila</p>
+                        <p className='tm'>Desde 1911, a FILA oferece peças exclusivas para performance esportiva e looks casuais, destacando sua herança esportiva e DNA italiano.</p>
                     </div>
                 </div>
                 <div className='card card2'>
                     <img className='img' src="./assets/img/img2.jpg" alt="" />
                     <div className='boxText'>
-                        <p className='tl'>Where does it come from</p>
-                        <p className='tm'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
+                        <p className='tl'>Kappa</p>
+                        <p className='tm'>A Kappa, fundada em 1967, é uma marca italiana de roupas esportivas conhecida pelo logotipo icônico e por combinar estilo e funcionalidade em seus produtos.</p>
                     </div>
                 </div>
                 <div className='card card3'>
                     <img className='img' src="./assets/img/img3.jpg" alt="" />
                     <div className='boxText'>
-                        <p className='tl'>Where does it come from</p>
-                        <p className='tm'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
+                        <p className='tl'>Converse</p>
+                        <p className='tm'>A Converse, fundada em 1908, é uma marca americana de calçados e roupas, famosa pelos tênis All Star, que combinam estilo clássico e moderno.</p>
                     </div>
                 </div>
             </SecGuide>
