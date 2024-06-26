@@ -1,0 +1,20 @@
+[
+    {
+        "class": "card1",
+        "image": "img1.jpg",
+        "title": "Fila",
+        "text": "Desde 1911, a FILA oferece peças exclusivas para performance esportiva e looks casuais, destacando sua herança esportiva e DNA italiano."
+    },
+    {
+        "class": "card2",
+        "image": "img2.jpg",
+        "title": "Kappa",
+        "text": "A Kappa, fundada em 1967, é uma marca italiana de roupas esportivas conhecida pelo logotipo icônico e por combinar estilo e funcionalidade em seus produtos."
+    },
+    {
+        "class": "card3",
+        "image": "img3.jpg",
+        "title": "Converse",
+        "text": "A Converse, fundada em 1908, é uma marca americana de calçados e roupas, famosa pelos tênis All Star, que combinam estilo clássico e moderno."
+    }
+]

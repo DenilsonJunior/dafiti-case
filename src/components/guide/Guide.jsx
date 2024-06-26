@@ -3,6 +3,7 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 import { SecGuide } from './styles.js';
+import cardData from './item.json';
 
 function Guide() {
     useLayoutEffect(() => {
@@ -42,27 +43,15 @@ function Guide() {
     return (
         <div className='min-conteudo secAnima'>
             <SecGuide>
-                <div className='card card1'>
-                    <img className='img' src="./assets/img/img1.jpg" alt="" />
-                    <div className='boxText'>
-                        <p className='tl'>Fila</p>
-                        <p className='tm'>Desde 1911, a FILA oferece peças exclusivas para performance esportiva e looks casuais, destacando sua herança esportiva e DNA italiano.</p>
+                {cardData.map((item, index) => (
+                    <div className={`card ${item.class}`} key={`card${index}`}>
+                        <img className='img' src={`./assets/img/${item.image}`} alt="" />
+                        <div className='boxText'>
+                            <p className='tl'>{item.title}</p>
+                            <p className='tm'>{item.text}</p>
+                        </div>
                     </div>
-                </div>
-                <div className='card card2'>
-                    <img className='img' src="./assets/img/img2.jpg" alt="" />
-                    <div className='boxText'>
-                        <p className='tl'>Kappa</p>
-                        <p className='tm'>A Kappa, fundada em 1967, é uma marca italiana de roupas esportivas conhecida pelo logotipo icônico e por combinar estilo e funcionalidade em seus produtos.</p>
-                    </div>
-                </div>
-                <div className='card card3'>
-                    <img className='img' src="./assets/img/img3.jpg" alt="" />
-                    <div className='boxText'>
-                        <p className='tl'>Converse</p>
-                        <p className='tm'>A Converse, fundada em 1908, é uma marca americana de calçados e roupas, famosa pelos tênis All Star, que combinam estilo clássico e moderno.</p>
-                    </div>
-                </div>
+                ))}
             </SecGuide>
         </div>
     )

@@ -6,7 +6,7 @@ function Capa() {
 
     useEffect(() => {
         const updateImage = () => {
-            if (window.innerWidth < 758) {
+            if (window.innerWidth < 768) {
                 setImage('capa-resp');
             } else {
                 setImage('capa-desk');
@@ -24,6 +24,10 @@ function Capa() {
         <div className='max-conteudo'>
             <Image>
                 <img src={`./assets/img/${image}.jpg`} alt="" />
+                <a href="https://www.dafiti.com.br/" target="_blank" rel="noopener noreferrer">
+                    <img className='imgBtn' src="./assets/img/btn.png" alt="" />
+                    <img className='detal' src="./assets/img/arrow.png" alt="" />
+                </a>
             </Image>
         </div>
     );

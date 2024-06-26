@@ -2,6 +2,9 @@ import styled from "styled-components"
 
 export const SecGuide = styled.section`
     margin: 1rem 0 5rem;
+    @media (max-width: 728px) {
+        margin: 1rem 0 2rem;
+    }
 
     display: grid;
     gap: 1rem;
