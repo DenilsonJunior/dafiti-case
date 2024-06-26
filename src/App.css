@@ -3,6 +3,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #root {
@@ -12,7 +13,10 @@
 .min-conteudo {
     width: 60%;
     margin: 0 auto;
-    @media (max-width: 786px) {
+    @media (max-width: 1100px) {
+        width: 80%;
+    }
+    @media (max-width: 768px) {
         width: 90%;
     }
 }
