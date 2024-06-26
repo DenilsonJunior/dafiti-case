@@ -21,6 +21,11 @@ export const SecGuide = styled.section`
         height: auto;
         position: relative;
         overflow: hidden;
+        opacity: 0;
+        @media (max-width: 786px) {
+            opacity: 1 !important;
+            transform: none !important;
+        }
         img {
             width: 100%;
             height: 100%;
@@ -39,7 +44,7 @@ export const SecGuide = styled.section`
                 color: white;
             }
             .tm {
-                font-size: .7rem;
+                font-size: .8rem;
             }
         }
         &:hover {
@@ -51,11 +56,16 @@ export const SecGuide = styled.section`
 
     .card1 {
         grid-area: a;
+        transform: translateX(-30rem);
+        opacity: 0;
     }
     .card2 {
         grid-area: b;
+        transform: translateY(30rem);
+        opacity: 0;
     }
     .card3 {
         grid-area: c;
+        transform: translateX(30rem);
     }
 `
