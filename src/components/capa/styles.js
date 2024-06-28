@@ -8,12 +8,15 @@ export const Image = styled.section`
     a {
         position: absolute;
         width: 9.6%;
+        height: auto;
         bottom: 35.3%;
         right: 21.9%;
         z-index: 1;
         height: auto;
         text-decoration: none;
         transition-duration: .3s;
+        display: flex;
+        align-items: flex-start;
         @media (max-width: 768px) {
             width: 17.5%;
             bottom: 44.5%;
@@ -33,12 +36,14 @@ export const Image = styled.section`
             position: absolute;
             color: black;
             width: 5%;
-            top: 25%;
-            right: 23%;
+            height: 100%;
+            /* background-color: red; */
+            object-fit: contain;
+            top: 0%;
+            right: 25%;
             animation: arrow 1s infinite;
             @media (max-width: 768px) {
                 width: 4.5%;
-                top: 41%;
             }
         }
         @keyframes arrow {
