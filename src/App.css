@@ -7,10 +7,6 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-p {
-    font-size: 15px;
-}
-
 .min-conteudo {
     width: 60%;
     margin: 0 auto;
@@ -27,4 +23,8 @@ p {
     width: 100%;
     max-width: 1920px;
     margin: 0 auto;
+}
+
+p {
+    font-size: 15px;
 }
